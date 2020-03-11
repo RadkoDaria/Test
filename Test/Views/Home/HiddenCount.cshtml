@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "HiddenCount";
+}
+    <form action="/Home/HiddenCount" method="post">
+        <input hidden name="counter" value="@ViewBag.Counter"/>
+         <input type= "submit" />
+    </form>
+  
+
+<h2>@ViewBag.Counter</h2>
+

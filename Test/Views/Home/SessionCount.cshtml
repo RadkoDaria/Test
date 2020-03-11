@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "SessionCount";
+}
+
+<h2>SessionCount</h2>
+<form action="/Home/SessionCount">
+    <input name="counter" value="@ViewBag.Counter" />
+    <input type="submit" />
+</form>
+<h2>@ViewBag.CookieCount</h2>
+
